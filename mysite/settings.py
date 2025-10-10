@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'kyle',
-        'USER': 'postgre',
+        'NAME': 'twitter',
+        'USER': 'postgres',
         'PASSWORD': '$Kylean1',
         'HOST': 'localhost'
     }
